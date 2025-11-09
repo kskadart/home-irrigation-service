@@ -1,0 +1,80 @@
+{
+  "common": {
+    "title": "Home Irrigation Control",
+    "description": "Smart irrigation system dashboard",
+    "refresh": "Refresh",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "create": "Create",
+    "poweredBy": "Home Irrigation Service - Powered by Raspberry Pi"
+  },
+  "metrics": {
+    "airConditions": "Air Conditions",
+    "soilConditions": "Soil Conditions",
+    "systemStatus": "System Status",
+    "temperature": "Temperature",
+    "humidity": "Humidity",
+    "moisture": "Moisture",
+    "valve": "Valve",
+    "mode": "Mode",
+    "state": "State",
+    "open": "OPEN",
+    "closed": "CLOSED",
+    "noAirData": "No air data available",
+    "noSoilData": "No soil data available",
+    "loadingMetrics": "Loading metrics..."
+  },
+  "control": {
+    "manualControl": "Manual Control",
+    "operationMode": "Operation Mode",
+    "auto": "Auto",
+    "manual": "Manual",
+    "valveControl": "Valve Control",
+    "openValve": "Open Valve",
+    "closeValve": "Close Valve"
+  },
+  "modes": {
+    "auto": "AUTO",
+    "manual": "MANUAL"
+  },
+  "states": {
+    "idle": "IDLE",
+    "watering": "WATERING",
+    "soaking": "SOAKING",
+    "waiting": "WAITING",
+    "manual": "MANUAL",
+    "budget_exceeded": "BUDGET EXCEEDED",
+    "no_soil_data": "NO SOIL DATA"
+  },
+  "config": {
+    "thresholdConfig": "Threshold Configuration",
+    "soilMoistureLow": "Soil Moisture Low (%)",
+    "soilMoistureHigh": "Soil Moisture High (%)",
+    "wateringDuration": "Watering Duration (seconds)",
+    "soakMinutes": "Soak Minutes",
+    "dailyBudget": "Daily Budget (minutes)",
+    "windowHours": "Window: Start - End Hour",
+    "saveConfiguration": "Save Configuration",
+    "saving": "Saving..."
+  },
+  "schedule": {
+    "wateringSchedules": "Watering Schedules",
+    "addSchedule": "Add Schedule",
+    "name": "Name",
+    "date": "Date",
+    "time": "Time",
+    "duration": "Duration (seconds)",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "noSchedules": "No schedules configured",
+    "creating": "Creating...",
+    "createSchedule": "Create Schedule"
+  },
+  "errors": {
+    "connectionFailed": "Failed to connect to irrigation service"
+  }
+}
+

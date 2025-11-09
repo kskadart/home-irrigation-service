@@ -1,0 +1,80 @@
+{
+  "common": {
+    "title": "Управление Поливом Дома",
+    "description": "Панель управления умной системой полива",
+    "refresh": "Обновить",
+    "loading": "Загрузка...",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "edit": "Изменить",
+    "delete": "Удалить",
+    "create": "Создать",
+    "poweredBy": "Система Полива Дома - На базе Raspberry Pi"
+  },
+  "metrics": {
+    "airConditions": "Состояние Воздуха",
+    "soilConditions": "Состояние Почвы",
+    "systemStatus": "Статус Системы",
+    "temperature": "Температура",
+    "humidity": "Влажность",
+    "moisture": "Влажность",
+    "valve": "Клапан",
+    "mode": "Режим",
+    "state": "Состояние",
+    "open": "ОТКРЫТ",
+    "closed": "ЗАКРЫТ",
+    "noAirData": "Нет данных о воздухе",
+    "noSoilData": "Нет данных о почве",
+    "loadingMetrics": "Загрузка показаний..."
+  },
+  "control": {
+    "manualControl": "Ручное Управление",
+    "operationMode": "Режим Работы",
+    "auto": "Авто",
+    "manual": "Ручной",
+    "valveControl": "Управление Клапаном",
+    "openValve": "Открыть Клапан",
+    "closeValve": "Закрыть Клапан"
+  },
+  "modes": {
+    "auto": "АВТО",
+    "manual": "РУЧНОЙ"
+  },
+  "states": {
+    "idle": "ОЖИДАНИЕ",
+    "watering": "ПОЛИВ",
+    "soaking": "ВПИТЫВАНИЕ",
+    "waiting": "ОЖИДАНИЕ",
+    "manual": "РУЧНОЙ",
+    "budget_exceeded": "ПРЕВЫШЕН ЛИМИТ",
+    "no_soil_data": "НЕТ ДАННЫХ О ПОЧВЕ"
+  },
+  "config": {
+    "thresholdConfig": "Настройка Порогов",
+    "soilMoistureLow": "Мин. Влажность Почвы (%)",
+    "soilMoistureHigh": "Макс. Влажность Почвы (%)",
+    "wateringDuration": "Длительность Полива (сек)",
+    "soakMinutes": "Минут Впитывания",
+    "dailyBudget": "Дневной Лимит (мин)",
+    "windowHours": "Окно: Начало - Конец (час)",
+    "saveConfiguration": "Сохранить Настройки",
+    "saving": "Сохранение..."
+  },
+  "schedule": {
+    "wateringSchedules": "Расписание Полива",
+    "addSchedule": "Добавить Расписание",
+    "name": "Название",
+    "date": "Дата",
+    "time": "Время",
+    "duration": "Длительность (сек)",
+    "enabled": "Включено",
+    "disabled": "Выключено",
+    "noSchedules": "Расписание не настроено",
+    "creating": "Создание...",
+    "createSchedule": "Создать Расписание"
+  },
+  "errors": {
+    "connectionFailed": "Не удалось подключиться к сервису полива"
+  }
+}
+

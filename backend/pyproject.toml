@@ -1,0 +1,18 @@
+[project]
+name = "home-irrigation-service"
+version = "0.1.0"
+description = "Smart home irrigation service for Raspberry Pi with web interface"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi==0.115.0",
+    "uvicorn[standard]==0.30.5",
+    "pydantic==2.8.2",
+    "sqlalchemy[asyncio]>=2.0.0",
+    "aiosqlite>=0.20.0",
+    "gpiozero>=2.0.0",
+    "adafruit-circuitpython-sht31d>=2.3.0",
+    "adafruit-circuitpython-ads1x15>=2.2.0",
+    "w1thermsensor>=2.3.0",
+    "adafruit-blinka>=8.0.0",
+]
